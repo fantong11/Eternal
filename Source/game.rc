@@ -1,0 +1,1066 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (繁體，台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\game.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MINUS               BITMAP                  "..\\res\\bmp10.bmp"
+
+IDB_CENTER              BITMAP                  "..\\res\\center.bmp"
+
+IDB_CONTINUE            BITMAP                  "..\\res\\continue.bmp"
+
+IDB_HELP                BITMAP                  "..\\res\\help.bmp"
+
+IDB_LOADING             BITMAP                  "..\\res\\loading.bmp"
+
+IDB_BLACK               BITMAP                  "..\\RES\\map\\black.bmp"
+
+IDB_HERO_UP_WALK0       BITMAP                  "..\\RES\\hero\\hero_up_walk0.bmp"
+
+IDB_HERO_UP_WALK1       BITMAP                  "..\\RES\\hero\\hero_up_walk1.bmp"
+
+IDB_HERO_UP_WALK2       BITMAP                  "..\\RES\\hero\\hero_up_walk2.bmp"
+
+IDB_HERO_UP_WALK3       BITMAP                  "..\\RES\\hero\\hero_up_walk3.bmp"
+
+IDB_HERO_DOWN_WALK0     BITMAP                  "..\\RES\\hero\\hero_down_walk0.bmp"
+
+IDB_HERO_DOWN_WALK1     BITMAP                  "..\\RES\\hero\\hero_down_walk1.bmp"
+
+IDB_HERO_DOWN_WALK2     BITMAP                  "..\\RES\\hero\\hero_down_walk2.bmp"
+
+IDB_HERO_DOWN_WALK3     BITMAP                  "..\\RES\\hero\\hero_down_walk3.bmp"
+
+IDB_HERO_LEFT_WALK0     BITMAP                  "..\\RES\\hero\\hero_left_walk0.bmp"
+
+IDB_HERO_LEFT_WALK1     BITMAP                  "..\\RES\\hero\\hero_left_walk1.bmp"
+
+IDB_HERO_LEFT_WALK2     BITMAP                  "..\\RES\\hero\\hero_left_walk2.bmp"
+
+IDB_HERO_LEFT_WALK3     BITMAP                  "..\\RES\\hero\\hero_left_walk3.bmp"
+
+IDB_HERO_RIGHT_WALK0    BITMAP                  "..\\RES\\hero\\hero_right_walk0.bmp"
+
+IDB_HERO_RIGHT_WALK1    BITMAP                  "..\\RES\\hero\\hero_right_walk1.bmp"
+
+IDB_HERO_RIGHT_WALK2    BITMAP                  "..\\RES\\hero\\hero_right_walk2.bmp"
+
+IDB_HERO_RIGHT_WALK3    BITMAP                  "..\\RES\\hero\\hero_right_walk3.bmp"
+
+IDB_BATTLE_UI           BITMAP                  "..\\RES\\battle_ui\\battle_menu.bmp"
+
+IDB_GRASS               BITMAP                  "..\\RES\\map\\grass.bmp"
+
+IDB_BATTLE_BACK         BITMAP                  "..\\RES\\battle_map\\battleback.bmp"
+
+IDB_NUM_0               BITMAP                  "..\\RES\\font\\num_0.bmp"
+
+IDB_NUM_1               BITMAP                  "..\\RES\\font\\num_1.bmp"
+
+IDB_NUM_2               BITMAP                  "..\\RES\\font\\num_2.bmp"
+
+IDB_NUM_3               BITMAP                  "..\\RES\\font\\num_3.bmp"
+
+IDB_NUM_4               BITMAP                  "..\\RES\\font\\num_4.bmp"
+
+IDB_NUM_5               BITMAP                  "..\\RES\\font\\num_5.bmp"
+
+IDB_NUM_6               BITMAP                  "..\\RES\\font\\num_6.bmp"
+
+IDB_NUM_7               BITMAP                  "..\\RES\\font\\num_7.bmp"
+
+IDB_NUM_8               BITMAP                  "..\\RES\\font\\num_8.bmp"
+
+IDB_NUM_9               BITMAP                  "..\\RES\\font\\num_9.bmp"
+
+IDB_ATTACK_BTN          BITMAP                  "..\\RES\\battle_ui\\Attack_Btn.bmp"
+
+IDB_SKILL_BTN           BITMAP                  "..\\RES\\battle_ui\\Skill_Btn.bmp"
+
+IDB_ITEM_BTN            BITMAP                  "..\\RES\\battle_ui\\Item_Btn.bmp"
+
+IDB_GUARD_BTN           BITMAP                  "..\\RES\\battle_ui\\Guard_Btn.bmp"
+
+IDB_ESCAPE_BTN          BITMAP                  "..\\RES\\battle_ui\\Escape_Btn.bmp"
+
+IDB_CURSOR              BITMAP                  "..\\RES\\battle_ui\\cursor.bmp"
+
+IDB_HERO_ATTACK0        BITMAP                  "..\\RES\\hero\\hero_attack0.bmp"
+
+IDB_HERO_ATTACK1        BITMAP                  "..\\RES\\hero\\hero_attack1.bmp"
+
+IDB_HERO_ATTACK2        BITMAP                  "..\\RES\\hero\\hero_attack2.bmp"
+
+IDB_HERO_ATTACK3        BITMAP                  "..\\RES\\hero\\hero_attack3.bmp"
+
+IDB_GRASS1              BITMAP                  "..\\RES\\map\\grass1.bmp"
+
+IDB_HOUSE               BITMAP                  "..\\RES\\map\\house.bmp"
+
+IDB_WATER0              BITMAP                  "..\\RES\\map\\water0.bmp"
+
+IDB_WATER1              BITMAP                  "..\\RES\\map\\water1.bmp"
+
+IDB_WATER2              BITMAP                  "..\\RES\\map\\water2.bmp"
+
+IDB_WATER3              BITMAP                  "..\\RES\\map\\water3.bmp"
+
+IDB_WATER4              BITMAP                  "..\\RES\\map\\water4.bmp"
+
+IDB_WATER5              BITMAP                  "..\\RES\\map\\water5.bmp"
+
+IDB_WATER6              BITMAP                  "..\\RES\\map\\water6.bmp"
+
+IDB_WATER7              BITMAP                  "..\\RES\\map\\water7.bmp"
+
+IDB_WATER8              BITMAP                  "..\\RES\\map\\water8.bmp"
+
+IDB_WATER9              BITMAP                  "..\\RES\\map\\water9.bmp"
+
+IDB_WATER10             BITMAP                  "..\\RES\\map\\water10.bmp"
+
+IDB_WATER11             BITMAP                  "..\\RES\\map\\water11.bmp"
+
+IDB_WATER12             BITMAP                  "..\\RES\\map\\water12.bmp"
+
+IDB_BRIDGE0             BITMAP                  "..\\RES\\map\\bridge0.bmp"
+
+IDB_BRIDGE1             BITMAP                  "..\\RES\\map\\bridge1.bmp"
+
+IDB_BRIDGE2             BITMAP                  "..\\RES\\map\\bridge2.bmp"
+
+IDB_BRIDGE3             BITMAP                  "..\\RES\\map\\bridge3.bmp"
+
+IDB_BRIDGE4             BITMAP                  "..\\RES\\map\\bridge4.bmp"
+
+IDB_BRIDGE5             BITMAP                  "..\\RES\\map\\bridge5.bmp"
+
+IDB_HERO_GUARD          BITMAP                  "..\\RES\\hero\\hero_guard.bmp"
+
+IDB_GOBLIN_IDLE0        BITMAP                  "..\\RES\\enemies\\goblin_idle0.bmp"
+
+IDB_GOBLIN_IDLE1        BITMAP                  "..\\RES\\enemies\\goblin_idle1.bmp"
+
+IDB_GOBLIN_IDLE2        BITMAP                  "..\\RES\\enemies\\goblin_idle2.bmp"
+
+IDB_GOBLIN_IDLE3        BITMAP                  "..\\RES\\enemies\\goblin_idle3.bmp"
+
+IDB_GOBLIN_HURT0        BITMAP                  "..\\RES\\enemies\\goblin_hurt0.bmp"
+
+IDB_GOBLIN_HURT1        BITMAP                  "..\\RES\\enemies\\goblin_hurt1.bmp"
+
+IDB_GOBLIN_HURT2        BITMAP                  "..\\RES\\enemies\\goblin_hurt2.bmp"
+
+IDB_GOBLIN_HURT3        BITMAP                  "..\\RES\\enemies\\goblin_hurt3.bmp"
+
+IDB_MUSHSROOM_IDLE0     BITMAP                  "..\\RES\\enemies\\mushsroom_idle0.bmp"
+
+IDB_MUSHSROOM_IDLE1     BITMAP                  "..\\RES\\enemies\\mushsroom_idle1.bmp"
+
+IDB_MUSHSROOM_IDLE2     BITMAP                  "..\\RES\\enemies\\mushsroom_idle2.bmp"
+
+IDB_MUSHSROOM_IDLE3     BITMAP                  "..\\RES\\enemies\\mushsroom_idle3.bmp"
+
+IDB_GRASS2              BITMAP                  "..\\RES\\map\\grass2.bmp"
+
+IDB_GRASS3              BITMAP                  "..\\RES\\map\\grass3.bmp"
+
+IDB_GRASS4              BITMAP                  "..\\RES\\map\\grass4.bmp"
+
+IDB_GRASS5              BITMAP                  "..\\RES\\map\\grass5.bmp"
+
+IDB_GRASS6              BITMAP                  "..\\RES\\map\\grass6.bmp"
+
+IDB_CHEST0              BITMAP                  "..\\RES\\map\\chest0.bmp"
+
+IDB_CHEST1              BITMAP                  "..\\RES\\map\\chest1.bmp"
+
+IDB_CHEST2              BITMAP                  "..\\RES\\map\\chest2.bmp"
+
+IDB_GRASS7              BITMAP                  "..\\RES\\map\\grass7.bmp"
+
+IDB_LEVEL_UI            BITMAP                  "..\\RES\\ui\\level_ui.bmp"
+
+IDB_GOLD_UI             BITMAP                  "..\\RES\\ui\\money_ui.bmp"
+
+IDB_NPC_DOWN0           BITMAP                  "..\\RES\\npc\\npc_down0.bmp"
+
+IDB_NPC_DOWN1           BITMAP                  "..\\RES\\npc\\npc_down1.bmp"
+
+IDB_NPC_DOWN2           BITMAP                  "..\\RES\\npc\\npc_down2.bmp"
+
+IDB_NPC_DOWN3           BITMAP                  "..\\RES\\npc\\npc_down3.bmp"
+
+IDB_NPC_LEFT0           BITMAP                  "..\\RES\\npc\\npc_left0.bmp"
+
+IDB_NPC_LEFT1           BITMAP                  "..\\RES\\npc\\npc_left1.bmp"
+
+IDB_NPC_LEFT2           BITMAP                  "..\\RES\\npc\\npc_left2.bmp"
+
+IDB_NPC_LEFT3           BITMAP                  "..\\RES\\npc\\npc_left3.bmp"
+
+IDB_NPC_RIGHT0          BITMAP                  "..\\RES\\npc\\npc_right0.bmp"
+
+IDB_NPC_RIGHT1          BITMAP                  "..\\RES\\npc\\npc_right1.bmp"
+
+IDB_NPC_RIGHT2          BITMAP                  "..\\RES\\npc\\npc_right2.bmp"
+
+IDB_NPC_RIGHT3          BITMAP                  "..\\RES\\npc\\npc_right3.bmp"
+
+IDB_NPC_UP0             BITMAP                  "..\\RES\\npc\\npc_up0.bmp"
+
+IDB_NPC_UP1             BITMAP                  "..\\RES\\npc\\npc_up1.bmp"
+
+IDB_NPC_UP2             BITMAP                  "..\\RES\\npc\\npc_up2.bmp"
+
+IDB_NPC_UP3             BITMAP                  "..\\RES\\npc\\npc_up3.bmp"
+
+IDB_MONEY_NUMBER_0      BITMAP                  "..\\RES\\ui\\money_num0.bmp"
+
+IDB_MONEY_NUMBER_1      BITMAP                  "..\\RES\\ui\\money_num1.bmp"
+
+IDB_MONEY_NUMBER_2      BITMAP                  "..\\RES\\ui\\money_num2.bmp"
+
+IDB_MONEY_NUMBER_3      BITMAP                  "..\\RES\\ui\\money_num3.bmp"
+
+IDB_MONEY_NUMBER_4      BITMAP                  "..\\RES\\ui\\money_num4.bmp"
+
+IDB_MONEY_NUMBER_5      BITMAP                  "..\\RES\\ui\\money_num5.bmp"
+
+IDB_MONEY_NUMBER_6      BITMAP                  "..\\RES\\ui\\money_num6.bmp"
+
+IDB_MONEY_NUMBER_7      BITMAP                  "..\\RES\\ui\\money_num7.bmp"
+
+IDB_MONEY_NUMBER_8      BITMAP                  "..\\RES\\ui\\money_num8.bmp"
+
+IDB_MONEY_NUMBER_9      BITMAP                  "..\\RES\\ui\\money_num9.bmp"
+
+IDB_GOBLIN_HURT_0       BITMAP                  "..\\RES\\enemies\\goblin_hurt0.bmp"
+
+IDB_GOBLIN_HURT_1       BITMAP                  "..\\RES\\enemies\\goblin_hurt1.bmp"
+
+IDB_GOBLIN_HURT_2       BITMAP                  "..\\RES\\enemies\\goblin_hurt2.bmp"
+
+IDB_GOBLIN_HURT_3       BITMAP                  "..\\RES\\enemies\\goblin_hurt3.bmp"
+
+IDB_SKULL_HURT_0        BITMAP                  "..\\RES\\enemies\\skull_hurt0.bmp"
+
+IDB_ROAD_0              BITMAP                  "..\\RES\\map\\road0.bmp"
+
+IDB_GOBLIN_ATTACK0      BITMAP                  "..\\RES\\enemies\\goblin_attack0.bmp"
+
+IDB_GOBLIN_ATTACK1      BITMAP                  "..\\RES\\enemies\\goblin_attack1.bmp"
+
+IDB_GOBLIN_ATTACK2      BITMAP                  "..\\RES\\enemies\\goblin_attack2.bmp"
+
+IDB_GOBLIN_ATTACK3      BITMAP                  "..\\RES\\enemies\\goblin_attack3.bmp"
+
+IDB_GOBLIN_ATTACK4      BITMAP                  "..\\RES\\enemies\\goblin_attack4.bmp"
+
+IDB_GOBLIN_ATTACK5      BITMAP                  "..\\RES\\enemies\\goblin_attack5.bmp"
+
+IDB_GOBLIN_ATTACK6      BITMAP                  "..\\RES\\enemies\\goblin_attack6.bmp"
+
+IDB_GOBLIN_ATTACK7      BITMAP                  "..\\RES\\enemies\\goblin_attack7.bmp"
+
+IDB_ITEM_MENU           BITMAP                  "..\\RES\\battle_ui\\item_menu.bmp"
+
+IDB_MUSHROOM_HURT0      BITMAP                  "..\\RES\\enemies\\mushsroom_hurt0.bmp"
+
+IDB_MUSHROOM_HURT1      BITMAP                  "..\\RES\\enemies\\mushsroom_hurt1.bmp"
+
+IDB_MUSHROOM_HURT2      BITMAP                  "..\\RES\\enemies\\mushsroom_hurt2.bmp"
+
+IDB_MUSHROOM_HURT3      BITMAP                  "..\\RES\\enemies\\mushsroom_hurt3.bmp"
+
+IDB_MUSHROOM_ATTACK0    BITMAP                  "..\\RES\\enemies\\mushsroom_attack0.bmp"
+
+IDB_MUSHROOM_ATTACK1    BITMAP                  "..\\RES\\enemies\\mushsroom_attack1.bmp"
+
+IDB_MUSHROOM_ATTACK2    BITMAP                  "..\\RES\\enemies\\mushsroom_attack2.bmp"
+
+IDB_MUSHROOM_ATTACK3    BITMAP                  "..\\RES\\enemies\\mushsroom_attack3.bmp"
+
+IDB_MUSHROOM_ATTACK4    BITMAP                  "..\\RES\\enemies\\mushsroom_attack4.bmp"
+
+IDB_MUSHROOM_ATTACK5    BITMAP                  "..\\RES\\enemies\\mushsroom_attack5.bmp"
+
+IDB_MUSHROOM_ATTACK6    BITMAP                  "..\\RES\\enemies\\mushsroom_attack6.bmp"
+
+IDB_MUSHROOM_ATTACK7    BITMAP                  "..\\RES\\enemies\\mushsroom_attack7.bmp"
+
+IDB_SKULL_ATTACK0       BITMAP                  "..\\RES\\enemies\\skull_attack0.bmp"
+
+IDB_SKULL_ATTACK1       BITMAP                  "..\\RES\\enemies\\skull_attack1.bmp"
+
+IDB_SKULL_ATTACK2       BITMAP                  "..\\RES\\enemies\\skull_attack2.bmp"
+
+IDB_SKULL_ATTACK3       BITMAP                  "..\\RES\\enemies\\skull_attack3.bmp"
+
+IDB_SKULL_ATTACK4       BITMAP                  "..\\RES\\enemies\\skull_attack4.bmp"
+
+IDB_SKULL_ATTACK5       BITMAP                  "..\\RES\\enemies\\skull_attack5.bmp"
+
+IDB_SKULL_ATTACK6       BITMAP                  "..\\RES\\enemies\\skull_attack6.bmp"
+
+IDB_SKULL_ATTACK7       BITMAP                  "..\\RES\\enemies\\skull_attack7.bmp"
+
+IDB_SKULL_HURT0         BITMAP                  "..\\RES\\enemies\\skull_hurt0.bmp"
+
+IDB_SKULL_HURT1         BITMAP                  "..\\RES\\enemies\\skull_hurt1.BMP"
+
+IDB_SKULL_HURT2         BITMAP                  "..\\RES\\enemies\\skull_hurt2.BMP"
+
+IDB_SKULL_HURT3         BITMAP                  "..\\RES\\enemies\\skull_hurt3.BMP"
+
+IDB_SKULL_IDLE0         BITMAP                  "..\\RES\\enemies\\skull_idle0.BMP"
+
+IDB_SKULL_IDLE1         BITMAP                  "..\\RES\\enemies\\skull_idle1.BMP"
+
+IDB_SKULL_IDLE2         BITMAP                  "..\\RES\\enemies\\skull_idle2.BMP"
+
+IDB_SKULL_IDLE3         BITMAP                  "..\\RES\\enemies\\skull_idle3.BMP"
+
+IDB_FLYING_EYE_ATTACK0  BITMAP                  "..\\RES\\enemies\\flying_eye_attack0.BMP"
+
+IDB_FLYING_EYE_ATTACK1  BITMAP                  "..\\RES\\enemies\\flying_eye_attack1.BMP"
+
+IDB_FLYING_EYE_ATTACK2  BITMAP                  "..\\RES\\enemies\\flying_eye_attack2.BMP"
+
+IDB_FLYING_EYE_ATTACK3  BITMAP                  "..\\RES\\enemies\\flying_eye_attack3.BMP"
+
+IDB_FLYING_EYE_ATTACK4  BITMAP                  "..\\RES\\enemies\\flying_eye_attack4.BMP"
+
+IDB_FLYING_EYE_ATTACK5  BITMAP                  "..\\RES\\enemies\\flying_eye_attack5.BMP"
+
+IDB_FLYING_EYE_ATTACK6  BITMAP                  "..\\RES\\enemies\\flying_eye_attack6.BMP"
+
+IDB_FLYING_EYE_ATTACK7  BITMAP                  "..\\RES\\enemies\\flying_eye_attack7.BMP"
+
+IDB_FLYING_EYE_HURT0    BITMAP                  "..\\RES\\enemies\\flying_eye_hurt0.BMP"
+
+IDB_FLYING_EYE_HURT1    BITMAP                  "..\\RES\\enemies\\flying_eye_hurt1.BMP"
+
+IDB_FLYING_EYE_HURT2    BITMAP                  "..\\RES\\enemies\\flying_eye_hurt2.BMP"
+
+IDB_FLYING_EYE_HURT3    BITMAP                  "..\\RES\\enemies\\flying_eye_hurt3.BMP"
+
+IDB_FLYING_EYE_IDLE0    BITMAP                  "..\\RES\\enemies\\flying_eye_idle0.BMP"
+
+IDB_FLYING_EYE_IDLE1    BITMAP                  "..\\RES\\enemies\\flying_eye_idle1.BMP"
+
+IDB_FLYING_EYE_IDLE2    BITMAP                  "..\\RES\\enemies\\flying_eye_idle2.BMP"
+
+IDB_FLYING_EYE_IDLE3    BITMAP                  "..\\RES\\enemies\\flying_eye_idle3.BMP"
+
+IDB_FLYING_EYE_IDLE4    BITMAP                  "..\\RES\\enemies\\flying_eye_idle4.BMP"
+
+IDB_FLYING_EYE_IDLE5    BITMAP                  "..\\RES\\enemies\\flying_eye_idle5.BMP"
+
+IDB_FLYING_EYE_IDLE6    BITMAP                  "..\\RES\\enemies\\flying_eye_idle6.BMP"
+
+IDB_FLYING_EYE_IDLE7    BITMAP                  "..\\RES\\enemies\\flying_eye_idle7.BMP"
+
+IDB_POTION              BITMAP                  "..\\RES\\item\\potion.bmp"
+
+IDB_HEALING_SPELL0      BITMAP                  "..\\RES\\spell\\healing_spell0.bmp"
+
+IDB_HEALING_SPELL1      BITMAP                  "..\\RES\\spell\\healing_spell1.bmp"
+
+IDB_HEALING_SPELL2      BITMAP                  "..\\RES\\spell\\healing_spell2.bmp"
+
+IDB_HEALING_SPELL3      BITMAP                  "..\\RES\\spell\\healing_spell3.bmp"
+
+IDB_HEALING_SPELL4      BITMAP                  "..\\RES\\spell\\healing_spell4.bmp"
+
+IDB_HEALING_SPELL5      BITMAP                  "..\\RES\\spell\\healing_spell5.bmp"
+
+IDB_HEALING_SPELL6      BITMAP                  "..\\RES\\spell\\healing_spell6.bmp"
+
+IDB_HEALING_SPELL7      BITMAP                  "..\\RES\\spell\\healing_spell7.bmp"
+
+IDB_HEALING_SPELL8      BITMAP                  "..\\RES\\spell\\healing_spell8.bmp"
+
+IDB_HEALING_SPELL9      BITMAP                  "..\\RES\\spell\\healing_spell9.bmp"
+
+IDB_HEALING_SPELL10     BITMAP                  "..\\RES\\spell\\healing_spell10.bmp"
+
+IDB_HEALING_SPELL11     BITMAP                  "..\\RES\\spell\\healing_spell11.bmp"
+
+IDB_LIGHTNING_SPELL0    BITMAP                  "..\\RES\\spell\\lightning_spell0.bmp"
+
+IDB_LIGHTNING_SPELL1    BITMAP                  "..\\RES\\spell\\lightning_spell1.bmp"
+
+IDB_LIGHTNING_SPELL2    BITMAP                  "..\\RES\\spell\\lightning_spell2.bmp"
+
+IDB_LIGHTNING_SPELL3    BITMAP                  "..\\RES\\spell\\lightning_spell3.bmp"
+
+IDB_LIGHTNING_SPELL4    BITMAP                  "..\\RES\\spell\\lightning_spell4.bmp"
+
+IDB_LIGHTNING_SPELL5    BITMAP                  "..\\RES\\spell\\lightning_spell5.bmp"
+
+IDB_LIGHTNING_SPELL6    BITMAP                  "..\\RES\\spell\\lightning_spell6.bmp"
+
+IDB_LIGHTNING_SPELL7    BITMAP                  "..\\RES\\spell\\lightning_spell7.bmp"
+
+IDB_LIGHTNING_SPELL8    BITMAP                  "..\\RES\\spell\\lightning_spell8.bmp"
+
+IDB_LIGHTNING_SPELL9    BITMAP                  "..\\RES\\spell\\lightning_spell9.bmp"
+
+IDB_LIGHTNING_SPELL10   BITMAP                  "..\\RES\\spell\\lightning_spell10.bmp"
+
+IDB_LIGHTNING_SPELL11   BITMAP                  "..\\RES\\spell\\lightning_spell11.bmp"
+
+IDB_LIGHTNING_SPELL12   BITMAP                  "..\\RES\\spell\\lightning_spell12.bmp"
+
+IDB_LIGHTNING_SPELL13   BITMAP                  "..\\RES\\spell\\lightning_spell13.bmp"
+
+IDB_LIGHTNING_SPELL14   BITMAP                  "..\\RES\\spell\\lightning_spell14.bmp"
+
+IDB_ITEM_POTION         BITMAP                  "..\\RES\\battle_ui\\Potion.BMP"
+
+IDB_SKILL_HEAL          BITMAP                  "..\\RES\\battle_ui\\Heal.BMP"
+
+IDB_SKILL_LIGHTNING     BITMAP                  "..\\RES\\battle_ui\\Lightning.bmp"
+
+IDB_BACK                BITMAP                  "..\\RES\\battle_ui\\Back.bmp"
+
+IDB_FLYING_EYE_SKILL5   BITMAP                  "..\\RES\\enemies\\flying_eye_Skill5.bmp"
+
+IDB_FLYING_EYE_SKILL6   BITMAP                  "..\\RES\\enemies\\flying_eye_Skill6.bmp"
+
+IDB_FLYING_EYE_SKILL7   BITMAP                  "..\\RES\\enemies\\flying_eye_Skill7.BMP"
+
+IDB_GOBLIN_SKILL0       BITMAP                  "..\\RES\\enemies\\goblin_skill0.bmp"
+
+IDB_GOBLIN_SKILL1       BITMAP                  "..\\RES\\enemies\\goblin_skill1.bmp"
+
+IDB_GOBLIN_SKILL2       BITMAP                  "..\\RES\\enemies\\goblin_skill2.bmp"
+
+IDB_GOBLIN_SKILL3       BITMAP                  "..\\RES\\enemies\\goblin_skill3.bmp"
+
+IDB_TUTORIAL            BITMAP                  "..\\RES\\start_menu\\tutorial_font.bmp"
+
+IDB_SKULL_DEAD0         BITMAP                  "..\\RES\\enemies\\skull_dead0.bmp"
+
+IDB_SKULL_DEAD1         BITMAP                  "..\\RES\\enemies\\skull_dead1.bmp"
+
+IDB_SKULL_DEAD2         BITMAP                  "..\\RES\\enemies\\skull_dead2.bmp"
+
+IDB_SKULL_DEAD3         BITMAP                  "..\\RES\\enemies\\skull_dead3.bmp"
+
+IDB_MUSHSROOM_DEAD0     BITMAP                  "..\\RES\\enemies\\mushsroom_dead0.bmp"
+
+IDB_MUSHSROOM_DEAD1     BITMAP                  "..\\RES\\enemies\\mushsroom_dead1.bmp"
+
+IDB_MUSHSROOM_DEAD2     BITMAP                  "..\\RES\\enemies\\mushsroom_dead2.bmp"
+
+IDB_MUSHSROOM_DEAD3     BITMAP                  "..\\RES\\enemies\\mushsroom_dead3.bmp"
+
+IDB_GOBLIN_DEAD0        BITMAP                  "..\\RES\\enemies\\goblin_dead0.bmp"
+
+IDB_GOBLIN_DEAD1        BITMAP                  "..\\RES\\enemies\\goblin_dead1.bmp"
+
+IDB_GOBLIN_DEAD2        BITMAP                  "..\\RES\\enemies\\goblin_dead2.bmp"
+
+IDB_GOBLIN_DEAD3        BITMAP                  "..\\RES\\enemies\\goblin_dead3.bmp"
+
+IDB_FLYING_EYE_DEAD0    BITMAP                  "..\\RES\\enemies\\flying_eye_dead0.bmp"
+
+IDB_FLYING_EYE_DEAD1    BITMAP                  "..\\RES\\enemies\\flying_eye_dead1.bmp"
+
+IDB_FLYING_EYE_DEAD2    BITMAP                  "..\\RES\\enemies\\flying_eye_dead2.bmp"
+
+IDB_FLYING_EYE_DEAD3    BITMAP                  "..\\RES\\enemies\\flying_eye_dead3.bmp"
+
+IDB_BATTLE_FINISH       BITMAP                  "..\\RES\\battle_ui\\battle_finish.bmp"
+
+IDB_START               BITMAP                  "..\\RES\\start_menu\\start.bmp"
+
+IDB_TUTORIAL_FONT       BITMAP                  "..\\res\\start_menu\\tutorial.bmp"
+
+IDB_EXIT                BITMAP                  "..\\RES\\start_menu\\exit.bmp"
+
+IDB_TITLE               BITMAP                  "..\\RES\\start_menu\\title.bmp"
+
+IDB_ETHER               BITMAP                  "..\\RES\\battle_ui\\Ether.bmp"
+
+IDB_SPEECH_BUBBLE       BITMAP                  "..\\RES\\ui\\speech_bubble.bmp"
+
+IDB_HEAL_MANA0          BITMAP                  "..\\RES\\spell\\heal_mana_0.bmp"
+
+IDB_HEAL_MANA1          BITMAP                  "..\\RES\\spell\\heal_mana_1.bmp"
+
+IDB_HEAL_MANA2          BITMAP                  "..\\RES\\spell\\heal_mana_2.bmp"
+
+IDB_HEAL_MANA3          BITMAP                  "..\\RES\\spell\\heal_mana_3.bmp"
+
+IDB_HEAL_MANA4          BITMAP                  "..\\RES\\spell\\heal_mana_4.bmp"
+
+IDB_HEAL_MANA5          BITMAP                  "..\\RES\\spell\\heal_mana_5.bmp"
+
+IDB_HEAL_MANA6          BITMAP                  "..\\RES\\spell\\heal_mana_6.bmp"
+
+IDB_HEAL_MANA7          BITMAP                  "..\\RES\\spell\\heal_mana_7.bmp"
+
+IDB_HEAL_MANA8          BITMAP                  "..\\RES\\spell\\heal_mana_8.bmp"
+
+IDB_HEAL_MANA9          BITMAP                  "..\\RES\\spell\\heal_mana_9.bmp"
+
+IDB_HEAL_MANA10         BITMAP                  "..\\RES\\spell\\heal_mana_10.bmp"
+
+IDB_HEAL_MANA11         BITMAP                  "..\\RES\\spell\\heal_mana_11.bmp"
+
+IDB_HEAL_MANA12         BITMAP                  "..\\RES\\spell\\heal_mana_12.bmp"
+
+IDB_HEAL_MANA13         BITMAP                  "..\\RES\\spell\\heal_mana_13.bmp"
+
+IDB_HEAL_MANA14         BITMAP                  "..\\RES\\spell\\heal_mana_14.bmp"
+
+IDB_HEAL_MANA15         BITMAP                  "..\\RES\\spell\\heal_mana_15.bmp"
+
+IDB_HEAL_MANA16         BITMAP                  "..\\RES\\spell\\heal_mana_16.bmp"
+
+IDB_HEAL_MANA17         BITMAP                  "..\\RES\\spell\\heal_mana_17.bmp"
+
+IDB_HEAL_MANA18         BITMAP                  "..\\RES\\spell\\heal_mana_18.bmp"
+
+IDB_HEAL_MANA19         BITMAP                  "..\\RES\\spell\\heal_mana_19.bmp"
+
+IDB_HEAL_MANA20         BITMAP                  "..\\RES\\spell\\heal_mana_20.bmp"
+
+IDB_HEAL_MANA21         BITMAP                  "..\\RES\\spell\\heal_mana_21.bmp"
+
+IDB_HEAL_MANA22         BITMAP                  "..\\RES\\spell\\heal_mana_22.bmp"
+
+IDB_HEAL_MANA23         BITMAP                  "..\\RES\\spell\\heal_mana_23.bmp"
+
+IDB_HEAL_MANA24         BITMAP                  "..\\RES\\spell\\heal_mana_24.bmp"
+
+IDB_HEAL_MANA25         BITMAP                  "..\\RES\\spell\\heal_mana_25.bmp"
+
+IDB_HEAL_MANA26         BITMAP                  "..\\RES\\spell\\heal_mana_26.bmp"
+
+IDB_HEAL_MANA27         BITMAP                  "..\\RES\\spell\\heal_mana_27.bmp"
+
+IDB_HEAL_MANA28         BITMAP                  "..\\RES\\spell\\heal_mana_28.bmp"
+
+IDB_HEAL_MANA29         BITMAP                  "..\\RES\\spell\\heal_mana_29 .bmp"
+
+IDB_ICE_SPELL0          BITMAP                  "..\\RES\\spell\\ice_spell0.bmp"
+
+IDB_ICE_SPELL1          BITMAP                  "..\\RES\\spell\\ice_spell1.bmp"
+
+IDB_ICE_SPELL2          BITMAP                  "..\\RES\\spell\\ice_spell2.bmp"
+
+IDB_ICE_SPELL3          BITMAP                  "..\\RES\\spell\\ice_spell3.bmp"
+
+IDB_ICE_SPELL4          BITMAP                  "..\\RES\\spell\\ice_spell4.bmp"
+
+IDB_ICE_SPELL5          BITMAP                  "..\\RES\\spell\\ice_spell5.bmp"
+
+IDB_ICE_SPELL6          BITMAP                  "..\\RES\\spell\\ice_spell6.bmp"
+
+IDB_ICE_SPELL7          BITMAP                  "..\\RES\\spell\\ice_spell7.bmp"
+
+IDB_ICE_SPELL8          BITMAP                  "..\\RES\\spell\\ice_spell8.bmp"
+
+IDB_ICE_SPELL9          BITMAP                  "..\\RES\\spell\\ice_spell9.bmp"
+
+IDB_THUNDER_SPELL0      BITMAP                  "..\\RES\\spell\\thunder_spell_0.bmp"
+
+IDB_THUNDER_SPELL1      BITMAP                  "..\\RES\\spell\\thunder_spell_1.bmp"
+
+IDB_THUNDER_SPELL2      BITMAP                  "..\\RES\\spell\\thunder_spell_2.bmp"
+
+IDB_THUNDER_SPELL3      BITMAP                  "..\\RES\\spell\\thunder_spell_3.bmp"
+
+IDB_THUNDER_SPELL4      BITMAP                  "..\\RES\\spell\\thunder_spell_4.bmp"
+
+IDB_THUNDER_SPELL5      BITMAP                  "..\\RES\\spell\\thunder_spell_5.bmp"
+
+IDB_BEHEMOTH            BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth.bmp"
+
+IDB_BEHEMOTH_ATTACK1    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_01.bmp"
+
+IDB_BEHEMOTH_ATTACK2    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_02.bmp"
+
+IDB_BEHEMOTH_ATTACK3    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_03.bmp"
+
+IDB_BEHEMOTH_ATTACK4    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_04.bmp"
+
+IDB_BEHEMOTH_ATTACK5    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_05.bmp"
+
+IDB_BEHEMOTH_ATTACK6    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_06.bmp"
+
+IDB_BEHEMOTH_ATTACK7    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_07.bmp"
+
+IDB_BEHEMOTH_ATTACK8    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_08.bmp"
+
+IDB_BEHEMOTH_ATTACK9    BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_09.bmp"
+
+IDB_BEHEMOTH_ATTACK10   BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_10.bmp"
+
+IDB_BEHEMOTH_ATTACK11   BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_11.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC1 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_01.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC2 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_02.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC3 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_03.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC4 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_04.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC5 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_05.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC6 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_06.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC7 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_07.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC8 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_08.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC9 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_09.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC10 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_10.bmp"
+
+IDB_BEHEMOTH_ATTACK_ELECTIRC11 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_electirc_11.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE1 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_01.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE2 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_02.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE3 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_03.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE4 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_04.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE5 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_05.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE6 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_06.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE7 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_07.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE8 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_08.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE9 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_09.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE10 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_10.bmp"
+
+IDB_BEHEMOTH_ATTACK_ICE11 BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth_attack_ice_11.bmp"
+
+IDB_ABOUT               BITMAP                  "..\\RES\\start_menu\\about.bmp"
+
+IDB_STORY               BITMAP                  "..\\RES\\start_menu\\Anime-girl-blue-skirt-sword-grass_1024x768.bmp"
+
+IDB_ESCAPEFAILED        BITMAP                  "..\\RES\\battle_ui\\escapefailed.bmp"
+
+IDB_BOSS_DOOR           BITMAP                  "..\\RES\\map\\boss_door.bmp"
+
+IDB_BATTLE_BOSS_BACKGROUND BITMAP                  "..\\RES\\battle_map\\battle_boss_background.bmp"
+
+IDB_VICTORY             BITMAP                  "..\\RES\\start_menu\\victory.bmp"
+
+IDB_ABOUT_BTN           BITMAP                  "..\\RES\\start_menu\\about_font.bmp"
+												 
+IDB_THUNDER             BITMAP                  "..\\RES\\battle_ui\\thunder.bmp"
+												 
+IDB_ACTRESS             BITMAP                  "..\\RES\\enemies\\behemoth\\behemoth - 複製.bmp"
+												 
+IDB_ACTOR               BITMAP                  "..\\RES\\hero\\hero_attack1 - 複製.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_GAMECURSOR          CURSOR                  "..\\res\\gamecurs.cur"
+
+#endif    // 中文 (繁體，台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英文 (美國) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "..\\res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "..\\res\\game.ico"
+
+IDR_GAMETYPE            ICON                    "..\\res\\gameDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BUTTON_FULLSCREEN
+    BUTTON      ID_BUTTON_PAUSE
+    SEPARATOR
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "Pause\tCtrl+Q",               ID_FILE_PAUSE
+        MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Fullscreen\tCtrl+F",         ID_TOGGLE_FULLSCREEN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About game...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "F",            ID_TOGGLE_FULLSCREEN,   VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_FILE_PAUSE,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 218, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About game"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Game Framework Version 4.8",IDC_STATIC,39,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2012",IDC_STATIC,39,23,119,8
+    DEFPUSHBUTTON   "OK",IDOK,172,7,39,14,WS_GROUP
+    LTEXT           "Liense: GPL",IDC_STATIC,39,35,119,8
+    PUSHBUTTON      "ReadMe",IDC_README,172,24,39,13,WS_GROUP
+    LTEXT           "Author: Woei-Kae Chen, CSIE Department, NTUT",IDC_STATIC,39,47,159,8
+    LTEXT           "http://www.ntut.edu.tw/~wkchen/game",IDC_STATIC,39,60,159,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "game MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "game"
+            VALUE "LegalCopyright", "Copyright (C) 1999"
+            VALUE "OriginalFilename", "game.EXE"
+            VALUE "ProductName", "game Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "game\n\nGame\n\n\nGame.Document\nGame Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "game"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_FULLSCREEN    "Full Screen\nFull Screen"
+    ID_BUTTON_PAUSE         "Pause Game\nPause Game"
+    ID_BUTTON_UNITTEST      "Perform Unit Test"
+END
+
+#endif    // 英文 (美國) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\game.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

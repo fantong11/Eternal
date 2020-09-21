@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Monster">
+      <UniqueIdentifier>{18bf08a2-209c-4f1f-acdd-0788fdba7e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Player">
+      <UniqueIdentifier>{dd8d40b6-e29a-415d-a42a-67e477e39795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\NPC">
+      <UniqueIdentifier>{4ef1f4ed-2bc5-4768-86ac-d2147df584be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Game">
+      <UniqueIdentifier>{59b6dfb7-b06c-4f33-a30d-7acbbbc58709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Player\Item">
+      <UniqueIdentifier>{27b6b903-6810-4cf8-a074-2cda8e3030f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Player\Skill">
+      <UniqueIdentifier>{9f3cee3d-1dfa-42da-ad84-54068c647569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame\Monster\Behemoth">
+      <UniqueIdentifier>{0be7ecb2-62ea-4729-b390-63d509befafc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FlyingEye.cpp">
+      <Filter>MyGame\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skull.cpp">
+      <Filter>MyGame\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goblin.cpp">
+      <Filter>MyGame\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Monster.cpp">
+      <Filter>MyGame\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mushsroom.cpp">
+      <Filter>MyGame\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hero.cpp">
+      <Filter>MyGame\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Level.cpp">
+      <Filter>MyGame\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Npc.cpp">
+      <Filter>MyGame\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BattleUI.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameMap.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <Filter>MyGame\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item.cpp">
+      <Filter>MyGame\Player\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Potion.cpp">
+      <Filter>MyGame\Player\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lightning.cpp">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Skill.cpp">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Heal.cpp">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Chest.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Behemoth.cpp">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BehemothSkill.cpp">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IceClaw.cpp">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThunderSpell.cpp">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FireClaw.cpp">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThunderClaw.cpp">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ether.cpp">
+      <Filter>MyGame\Player\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FlyingEye.h">
+      <Filter>MyGame\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Skull.h">
+      <Filter>MyGame\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goblin.h">
+      <Filter>MyGame\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Monster.h">
+      <Filter>MyGame\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mushsroom.h">
+      <Filter>MyGame\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hero.h">
+      <Filter>MyGame\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Level.h">
+      <Filter>MyGame\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Npc.h">
+      <Filter>MyGame\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BattleUI.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameMap.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mygame.h">
+      <Filter>MyGame\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item.h">
+      <Filter>MyGame\Player\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Potion.h">
+      <Filter>MyGame\Player\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Skill.h">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lightning.h">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Heal.h">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Chest.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Behemoth.h">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehemothSkill.h">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IceClaw.h">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThunderSpell.h">
+      <Filter>MyGame\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FireClaw.h">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThunderClaw.h">
+      <Filter>MyGame\Monster\Behemoth</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ether.h">
+      <Filter>MyGame\Player\Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_map\battleback.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_map\battleback10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Attack_Btn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\battle_menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\cursor.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Escape_Btn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Guard_Btn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Item_Btn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Skill_Btn.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_hurt0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_hurt1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_hurt2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_hurt3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_idle0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_idle1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_idle2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_idle3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_idle0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_idle1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_idle2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_idle3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\spider.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\font\num_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_attack0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_attack1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_attack2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_attack3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_down_walk0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_down_walk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_down_walk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_down_walk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_guard.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_left_walk7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_right_walk7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_side.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_up_walk0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_up_walk1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_up_walk2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_up_walk3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\map\bitmap11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\black.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\bridge0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\bridge1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\bridge2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\bridge3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\bridge4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\bridge5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\chest0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\chest1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\chest2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\grass7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\house.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\water9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_down0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_down1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_down2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_down3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_left0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_left1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_left2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_left3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_right0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_right1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_right2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_right3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_up0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_up1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_up2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\npc\npc_up3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\level_ui.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\money_num9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_hurt0 .bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_hurt0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\spider_hurt0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\road0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_attack7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\map\bitmap17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\item_menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_hurt0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_hurt1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_hurt2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_hurt3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_attack7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_attack7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_hurt1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_hurt2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_hurt3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_idle0.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_idle1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_idle2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_idle3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack0.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack4.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack5.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack6.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_attack7.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_hurt0.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_hurt1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_hurt2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_hurt3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle0.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle1.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle2.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle3.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle4.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle5.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle6.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_idle7.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\item\potion.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\item.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\healing_spell11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\lightning_spell14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Potion.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Heal.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Lightning.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_Skill5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_Skill6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_Skill7.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_skill0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_skill1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_skill2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_skill3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\tutorial.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\RES\start_menu\tutorial.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_dead0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_dead1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_dead2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\skull_dead3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_dead0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_dead1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_dead2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\mushsroom_dead3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_dead0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_dead1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_dead2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\goblin_dead3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_dead0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_dead1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_dead2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\flying_eye_dead3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\battle_finish.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\tutorial_font.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\exit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\title.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\enemies\bitmap23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\Ether.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\speech_bubble.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\heal_mana_29 .bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\thunder_spell_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\thunder_spell_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\thunder_spell_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\thunder_spell_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\thunder_spell_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\thunder_spell_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\about.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\spell\ice_spell9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\Anime-girl-blue-skirt-sword-grass_1024x768.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\escapefailed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\Anime-girl-blue-skirt-sword-grass_1024x768.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map\boss_door.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_map\battleback9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_map\battle_boss_background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\first.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\victory.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero\hero_attack1 - 複製.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_menu\about_font.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\battle_ui\thunder.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\enemies\behemoth\behemoth - 複製.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <Image Include="RES\ui\money_ui.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\ui\Character_Shield.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

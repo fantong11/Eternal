@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnitTest|Win32">
+      <Configuration>UnitTest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ddraw.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\UnitTest/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNITTEST;_CRT_SECURE_NO_DEPRECATE;WINVER=0x400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\UnitTest/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\UnitTest/</AssemblerListingLocation>
+      <ObjectFileName>.\UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnitTest/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;cppunitd.lib;testrunnerd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\UnitTest/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\UnitTest/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnitTest/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp" />
+    <None Include="RES\bmp0.bmp" />
+    <None Include="RES\bmp1.bmp" />
+    <None Include="RES\bmp10.bmp" />
+    <None Include="RES\bmp2.bmp" />
+    <None Include="RES\bmp3.bmp" />
+    <None Include="RES\bmp4.bmp" />
+    <None Include="RES\bmp5.bmp" />
+    <None Include="RES\bmp6.bmp" />
+    <None Include="RES\bmp7.bmp" />
+    <None Include="RES\bmp8.bmp" />
+    <None Include="RES\bmp9.bmp" />
+    <None Include="RES\center.bmp" />
+    <None Include="RES\continue.bmp" />
+    <None Include="Res\corner.bmp" />
+    <None Include="RES\eraser1.bmp" />
+    <None Include="RES\eraser2.bmp" />
+    <None Include="RES\eraser3.bmp" />
+    <None Include="res\game.ico" />
+    <None Include="res\game.rc2" />
+    <None Include="RES\gamecurs.cur" />
+    <None Include="res\gameDoc.ico" />
+    <None Include="RES\help.bmp" />
+    <None Include="RES\loading.bmp" />
+    <None Include="RES\ntutcsie.bmp" />
+    <None Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Ether.cpp" />
+    <ClCompile Include="Source\audio.cpp" />
+    <ClCompile Include="Source\BattleUI.cpp" />
+    <ClCompile Include="Source\Behemoth.cpp" />
+    <ClCompile Include="Source\BehemothSkill.cpp" />
+    <ClCompile Include="Source\Chest.cpp" />
+    <ClCompile Include="Source\FireClaw.cpp" />
+    <ClCompile Include="Source\Goblin.cpp" />
+    <ClCompile Include="Source\Heal.cpp" />
+    <ClCompile Include="Source\Hero.cpp" />
+    <ClCompile Include="Source\game.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\GameMap.cpp" />
+    <ClCompile Include="Source\gameView.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\IceClaw.cpp" />
+    <ClCompile Include="Source\Item.cpp" />
+    <ClCompile Include="Source\Level.cpp" />
+    <ClCompile Include="Source\Lightning.cpp" />
+    <ClCompile Include="Source\MainFrm.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\Monster.cpp" />
+    <ClCompile Include="Source\Mushsroom.cpp" />
+    <ClCompile Include="Source\Npc.cpp" />
+    <ClCompile Include="Source\Potion.cpp" />
+    <ClCompile Include="Source\Skill.cpp" />
+    <ClCompile Include="Source\Skull.cpp" />
+    <ClCompile Include="Source\FlyingEye.cpp" />
+    <ClCompile Include="Source\StdAfx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\ThunderClaw.cpp" />
+    <ClCompile Include="Source\ThunderSpell.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Ether.h" />
+    <ClInclude Include="Source\audio.h" />
+    <ClInclude Include="Source\BattleUI.h" />
+    <ClInclude Include="Source\Behemoth.h" />
+    <ClInclude Include="Source\Chest.h" />
+    <ClInclude Include="Source\FireClaw.h" />
+    <ClInclude Include="Source\Goblin.h" />
+    <ClInclude Include="Source\Heal.h" />
+    <ClInclude Include="Source\Hero.h" />
+    <ClInclude Include="Source\game.h" />
+    <ClInclude Include="Source\gameDoc.h" />
+    <ClInclude Include="Source\GameMap.h" />
+    <ClInclude Include="Source\gameView.h" />
+    <ClInclude Include="Source\IceClaw.h" />
+    <ClInclude Include="Source\Item.h" />
+    <ClInclude Include="Source\Level.h" />
+    <ClInclude Include="Source\Lightning.h" />
+    <ClInclude Include="Source\MainFrm.h" />
+    <ClInclude Include="Source\Monster.h" />
+    <ClInclude Include="Source\BehemothSkill.h" />
+    <ClInclude Include="Source\Mushsroom.h" />
+    <ClInclude Include="Source\Npc.h" />
+    <ClInclude Include="Source\Potion.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\Skill.h" />
+    <ClInclude Include="Source\Skull.h" />
+    <ClInclude Include="Source\FlyingEye.h" />
+    <ClInclude Include="Source\StdAfx.h" />
+    <ClInclude Include="Source\gamelib.h" />
+    <ClInclude Include="Source\mygame.h" />
+    <ClInclude Include="Source\ThunderClaw.h" />
+    <ClInclude Include="Source\ThunderSpell.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\RES\start_menu\tutorial.bmp" />
+    <Image Include="..\..\Anime-girl-blue-skirt-sword-grass_1024x768.bmp" />
+    <Image Include="RES\battle_map\battleback.bmp" />
+    <Image Include="RES\battle_map\battleback10.bmp" />
+    <Image Include="RES\battle_map\battleback9.bmp" />
+    <Image Include="RES\battle_map\battle_boss_background.bmp" />
+    <Image Include="RES\battle_ui\Attack_Btn.bmp" />
+    <Image Include="RES\battle_ui\Back.bmp" />
+    <Image Include="RES\battle_ui\battle_finish.bmp" />
+    <Image Include="RES\battle_ui\battle_menu.bmp" />
+    <Image Include="RES\battle_ui\cursor.bmp" />
+    <Image Include="RES\battle_ui\escapefailed.bmp" />
+    <Image Include="RES\battle_ui\Escape_Btn.bmp" />
+    <Image Include="RES\battle_ui\Ether.bmp" />
+    <Image Include="RES\battle_ui\Guard_Btn.bmp" />
+    <Image Include="RES\battle_ui\Heal.BMP" />
+    <Image Include="RES\battle_ui\Item_Btn.bmp" />
+    <Image Include="RES\battle_ui\item_menu.bmp" />
+    <Image Include="RES\battle_ui\Lightning.bmp" />
+    <Image Include="RES\battle_ui\Potion.BMP" />
+    <Image Include="RES\battle_ui\Skill_Btn.bmp" />
+    <Image Include="RES\battle_ui\thunder.bmp" />
+    <Image Include="res\bitmap12.bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bitmap4.bmp" />
+    <Image Include="res\bitmap5.bmp" />
+    <Image Include="res\bitmap6.bmp" />
+    <Image Include="res\bitmap7.bmp" />
+    <Image Include="res\bitmap9.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth - 複製.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_01.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_02.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_03.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_04.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_05.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_06.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_07.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_08.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_09.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_10.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_11.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_01.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_02.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_03.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_04.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_05.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_06.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_07.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_08.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_09.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_10.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_electirc_11.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_01.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_02.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_03.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_04.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_05.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_06.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_07.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_08.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_09.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_10.bmp" />
+    <Image Include="RES\enemies\behemoth\behemoth_attack_ice_11.bmp" />
+    <Image Include="res\enemies\bitmap23.bmp" />
+    <Image Include="RES\enemies\flying_eye_attack0.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack1.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack2.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack3.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack4.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack5.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack6.BMP" />
+    <Image Include="RES\enemies\flying_eye_attack7.BMP" />
+    <Image Include="RES\enemies\flying_eye_dead0.bmp" />
+    <Image Include="RES\enemies\flying_eye_dead1.bmp" />
+    <Image Include="RES\enemies\flying_eye_dead2.bmp" />
+    <Image Include="RES\enemies\flying_eye_dead3.bmp" />
+    <Image Include="RES\enemies\flying_eye_hurt0.BMP" />
+    <Image Include="RES\enemies\flying_eye_hurt1.BMP" />
+    <Image Include="RES\enemies\flying_eye_hurt2.BMP" />
+    <Image Include="RES\enemies\flying_eye_hurt3.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle0.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle1.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle2.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle3.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle4.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle5.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle6.BMP" />
+    <Image Include="RES\enemies\flying_eye_idle7.BMP" />
+    <Image Include="RES\enemies\flying_eye_Skill5.bmp" />
+    <Image Include="RES\enemies\flying_eye_Skill6.bmp" />
+    <Image Include="RES\enemies\flying_eye_Skill7.BMP" />
+    <Image Include="RES\enemies\goblin_attack0.bmp" />
+    <Image Include="RES\enemies\goblin_attack1.bmp" />
+    <Image Include="RES\enemies\goblin_attack2.bmp" />
+    <Image Include="RES\enemies\goblin_attack3.bmp" />
+    <Image Include="RES\enemies\goblin_attack4.bmp" />
+    <Image Include="RES\enemies\goblin_attack5.bmp" />
+    <Image Include="RES\enemies\goblin_attack6.bmp" />
+    <Image Include="RES\enemies\goblin_attack7.bmp" />
+    <Image Include="RES\enemies\goblin_dead0.bmp" />
+    <Image Include="RES\enemies\goblin_dead1.bmp" />
+    <Image Include="RES\enemies\goblin_dead2.bmp" />
+    <Image Include="RES\enemies\goblin_dead3.bmp" />
+    <Image Include="RES\enemies\goblin_hurt0.bmp" />
+    <Image Include="RES\enemies\goblin_hurt1.bmp" />
+    <Image Include="RES\enemies\goblin_hurt2.bmp" />
+    <Image Include="RES\enemies\goblin_hurt3.bmp" />
+    <Image Include="RES\enemies\goblin_idle0.bmp" />
+    <Image Include="RES\enemies\goblin_idle1.bmp" />
+    <Image Include="RES\enemies\goblin_idle2.bmp" />
+    <Image Include="RES\enemies\goblin_idle3.bmp" />
+    <Image Include="RES\enemies\goblin_skill0.bmp" />
+    <Image Include="RES\enemies\goblin_skill1.bmp" />
+    <Image Include="RES\enemies\goblin_skill2.bmp" />
+    <Image Include="RES\enemies\goblin_skill3.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack0.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack1.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack2.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack3.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack4.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack5.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack6.bmp" />
+    <Image Include="RES\enemies\mushsroom_attack7.bmp" />
+    <Image Include="RES\enemies\mushsroom_dead0.bmp" />
+    <Image Include="RES\enemies\mushsroom_dead1.bmp" />
+    <Image Include="RES\enemies\mushsroom_dead2.bmp" />
+    <Image Include="RES\enemies\mushsroom_dead3.bmp" />
+    <Image Include="RES\enemies\mushsroom_hurt0 .bmp" />
+    <Image Include="RES\enemies\mushsroom_hurt0.bmp" />
+    <Image Include="RES\enemies\mushsroom_hurt1.bmp" />
+    <Image Include="RES\enemies\mushsroom_hurt2.bmp" />
+    <Image Include="RES\enemies\mushsroom_hurt3.bmp" />
+    <Image Include="RES\enemies\mushsroom_idle0.bmp" />
+    <Image Include="RES\enemies\mushsroom_idle1.bmp" />
+    <Image Include="RES\enemies\mushsroom_idle2.bmp" />
+    <Image Include="RES\enemies\mushsroom_idle3.bmp" />
+    <Image Include="RES\enemies\skull.bmp" />
+    <Image Include="RES\enemies\skull_attack0.bmp" />
+    <Image Include="RES\enemies\skull_attack1.bmp" />
+    <Image Include="RES\enemies\skull_attack2.bmp" />
+    <Image Include="RES\enemies\skull_attack3.bmp" />
+    <Image Include="RES\enemies\skull_attack4.bmp" />
+    <Image Include="RES\enemies\skull_attack5.bmp" />
+    <Image Include="RES\enemies\skull_attack6.bmp" />
+    <Image Include="RES\enemies\skull_attack7.bmp" />
+    <Image Include="RES\enemies\skull_dead0.bmp" />
+    <Image Include="RES\enemies\skull_dead1.bmp" />
+    <Image Include="RES\enemies\skull_dead2.bmp" />
+    <Image Include="RES\enemies\skull_dead3.bmp" />
+    <Image Include="RES\enemies\skull_hurt0.bmp" />
+    <Image Include="RES\enemies\skull_hurt1.BMP" />
+    <Image Include="RES\enemies\skull_hurt2.BMP" />
+    <Image Include="RES\enemies\skull_hurt3.BMP" />
+    <Image Include="RES\enemies\skull_idle0.BMP" />
+    <Image Include="RES\enemies\skull_idle1.BMP" />
+    <Image Include="RES\enemies\skull_idle2.BMP" />
+    <Image Include="RES\enemies\skull_idle3.BMP" />
+    <Image Include="RES\enemies\skull_left.bmp" />
+    <Image Include="RES\enemies\spider.bmp" />
+    <Image Include="RES\enemies\spider_hurt0.bmp" />
+    <Image Include="RES\font\num_0.bmp" />
+    <Image Include="RES\font\num_1.bmp" />
+    <Image Include="RES\font\num_10.bmp" />
+    <Image Include="RES\font\num_2.bmp" />
+    <Image Include="RES\font\num_3.bmp" />
+    <Image Include="RES\font\num_4.bmp" />
+    <Image Include="RES\font\num_5.bmp" />
+    <Image Include="RES\font\num_6.bmp" />
+    <Image Include="RES\font\num_7.bmp" />
+    <Image Include="RES\font\num_8.bmp" />
+    <Image Include="RES\font\num_9.bmp" />
+    <Image Include="RES\hero\hero_attack0.bmp" />
+    <Image Include="RES\hero\hero_attack1 - 複製.bmp" />
+    <Image Include="RES\hero\hero_attack1.bmp" />
+    <Image Include="RES\hero\hero_attack2.bmp" />
+    <Image Include="RES\hero\hero_attack3.bmp" />
+    <Image Include="RES\hero\hero_down_walk0.bmp" />
+    <Image Include="RES\hero\hero_down_walk1.bmp" />
+    <Image Include="RES\hero\hero_down_walk2.bmp" />
+    <Image Include="RES\hero\hero_down_walk3.bmp" />
+    <Image Include="RES\hero\hero_guard.bmp" />
+    <Image Include="RES\hero\hero_left_walk0.bmp" />
+    <Image Include="RES\hero\hero_left_walk1.bmp" />
+    <Image Include="RES\hero\hero_left_walk2.bmp" />
+    <Image Include="RES\hero\hero_left_walk3.bmp" />
+    <Image Include="RES\hero\hero_left_walk4.bmp" />
+    <Image Include="RES\hero\hero_left_walk5.bmp" />
+    <Image Include="RES\hero\hero_left_walk6.bmp" />
+    <Image Include="RES\hero\hero_left_walk7.bmp" />
+    <Image Include="RES\hero\hero_right_walk0.bmp" />
+    <Image Include="RES\hero\hero_right_walk1.bmp" />
+    <Image Include="RES\hero\hero_right_walk2.bmp" />
+    <Image Include="RES\hero\hero_right_walk3.bmp" />
+    <Image Include="RES\hero\hero_right_walk4.bmp" />
+    <Image Include="RES\hero\hero_right_walk5.bmp" />
+    <Image Include="RES\hero\hero_right_walk6.bmp" />
+    <Image Include="RES\hero\hero_right_walk7.bmp" />
+    <Image Include="RES\hero\hero_side.bmp" />
+    <Image Include="RES\hero\hero_up_walk0.bmp" />
+    <Image Include="RES\hero\hero_up_walk1.bmp" />
+    <Image Include="RES\hero\hero_up_walk2.bmp" />
+    <Image Include="RES\hero\hero_up_walk3.bmp" />
+    <Image Include="RES\item.bmp" />
+    <Image Include="RES\item\potion.bmp" />
+    <Image Include="RES\map.bmp" />
+    <Image Include="res\map\bitmap11.bmp" />
+    <Image Include="res\map\bitmap17.bmp" />
+    <Image Include="RES\map\black.bmp" />
+    <Image Include="RES\map\boss_door.bmp" />
+    <Image Include="RES\map\bridge0.bmp" />
+    <Image Include="RES\map\bridge1.bmp" />
+    <Image Include="RES\map\bridge2.bmp" />
+    <Image Include="RES\map\bridge3.bmp" />
+    <Image Include="RES\map\bridge4.bmp" />
+    <Image Include="RES\map\bridge5.bmp" />
+    <Image Include="RES\map\chest0.bmp" />
+    <Image Include="RES\map\chest1.bmp" />
+    <Image Include="RES\map\chest2.bmp" />
+    <Image Include="RES\map\grass.bmp" />
+    <Image Include="RES\map\grass1.bmp" />
+    <Image Include="RES\map\grass2.bmp" />
+    <Image Include="RES\map\grass3.bmp" />
+    <Image Include="RES\map\grass4.bmp" />
+    <Image Include="RES\map\grass5.bmp" />
+    <Image Include="RES\map\grass6.bmp" />
+    <Image Include="RES\map\grass7.bmp" />
+    <Image Include="RES\map\house.bmp" />
+    <Image Include="RES\map\road0.bmp" />
+    <Image Include="RES\map\water0.bmp" />
+    <Image Include="RES\map\water1.bmp" />
+    <Image Include="RES\map\water10.bmp" />
+    <Image Include="RES\map\water11.bmp" />
+    <Image Include="RES\map\water12.bmp" />
+    <Image Include="RES\map\water2.bmp" />
+    <Image Include="RES\map\water3.bmp" />
+    <Image Include="RES\map\water4.bmp" />
+    <Image Include="RES\map\water5.bmp" />
+    <Image Include="RES\map\water6.bmp" />
+    <Image Include="RES\map\water7.bmp" />
+    <Image Include="RES\map\water8.bmp" />
+    <Image Include="RES\map\water9.bmp" />
+    <Image Include="RES\spell\healing_spell0.bmp" />
+    <Image Include="RES\spell\healing_spell1.bmp" />
+    <Image Include="RES\spell\healing_spell10.bmp" />
+    <Image Include="RES\spell\healing_spell11.bmp" />
+    <Image Include="RES\spell\healing_spell2.bmp" />
+    <Image Include="RES\spell\healing_spell3.bmp" />
+    <Image Include="RES\spell\healing_spell4.bmp" />
+    <Image Include="RES\spell\healing_spell5.bmp" />
+    <Image Include="RES\spell\healing_spell6.bmp" />
+    <Image Include="RES\spell\healing_spell7.bmp" />
+    <Image Include="RES\spell\healing_spell8.bmp" />
+    <Image Include="RES\spell\healing_spell9.bmp" />
+    <Image Include="RES\spell\heal_mana_0.bmp" />
+    <Image Include="RES\spell\heal_mana_1.bmp" />
+    <Image Include="RES\spell\heal_mana_10.bmp" />
+    <Image Include="RES\spell\heal_mana_11.bmp" />
+    <Image Include="RES\spell\heal_mana_12.bmp" />
+    <Image Include="RES\spell\heal_mana_13.bmp" />
+    <Image Include="RES\spell\heal_mana_14.bmp" />
+    <Image Include="RES\spell\heal_mana_15.bmp" />
+    <Image Include="RES\spell\heal_mana_16.bmp" />
+    <Image Include="RES\spell\heal_mana_17.bmp" />
+    <Image Include="RES\spell\heal_mana_18.bmp" />
+    <Image Include="RES\spell\heal_mana_19.bmp" />
+    <Image Include="RES\spell\heal_mana_2.bmp" />
+    <Image Include="RES\spell\heal_mana_20.bmp" />
+    <Image Include="RES\spell\heal_mana_21.bmp" />
+    <Image Include="RES\spell\heal_mana_22.bmp" />
+    <Image Include="RES\spell\heal_mana_23.bmp" />
+    <Image Include="RES\spell\heal_mana_24.bmp" />
+    <Image Include="RES\spell\heal_mana_25.bmp" />
+    <Image Include="RES\spell\heal_mana_26.bmp" />
+    <Image Include="RES\spell\heal_mana_27.bmp" />
+    <Image Include="RES\spell\heal_mana_28.bmp" />
+    <Image Include="RES\spell\heal_mana_29 .bmp" />
+    <Image Include="RES\spell\heal_mana_3.bmp" />
+    <Image Include="RES\spell\heal_mana_4.bmp" />
+    <Image Include="RES\spell\heal_mana_5.bmp" />
+    <Image Include="RES\spell\heal_mana_6.bmp" />
+    <Image Include="RES\spell\heal_mana_7.bmp" />
+    <Image Include="RES\spell\heal_mana_8.bmp" />
+    <Image Include="RES\spell\heal_mana_9.bmp" />
+    <Image Include="RES\spell\ice_spell0.bmp" />
+    <Image Include="RES\spell\ice_spell1.bmp" />
+    <Image Include="RES\spell\ice_spell18.bmp" />
+    <Image Include="RES\spell\ice_spell2.bmp" />
+    <Image Include="RES\spell\ice_spell3.bmp" />
+    <Image Include="RES\spell\ice_spell4.bmp" />
+    <Image Include="RES\spell\ice_spell5.bmp" />
+    <Image Include="RES\spell\ice_spell6.bmp" />
+    <Image Include="RES\spell\ice_spell7.bmp" />
+    <Image Include="RES\spell\ice_spell8.bmp" />
+    <Image Include="RES\spell\ice_spell9.bmp" />
+    <Image Include="RES\spell\lightning_spell0.bmp" />
+    <Image Include="RES\spell\lightning_spell1.bmp" />
+    <Image Include="RES\spell\lightning_spell10.bmp" />
+    <Image Include="RES\spell\lightning_spell11.bmp" />
+    <Image Include="RES\spell\lightning_spell12.bmp" />
+    <Image Include="RES\spell\lightning_spell13.bmp" />
+    <Image Include="RES\spell\lightning_spell14.bmp" />
+    <Image Include="RES\spell\lightning_spell2.bmp" />
+    <Image Include="RES\spell\lightning_spell3.bmp" />
+    <Image Include="RES\spell\lightning_spell4.bmp" />
+    <Image Include="RES\spell\lightning_spell5.bmp" />
+    <Image Include="RES\spell\lightning_spell6.bmp" />
+    <Image Include="RES\spell\lightning_spell7.bmp" />
+    <Image Include="RES\spell\lightning_spell8.bmp" />
+    <Image Include="RES\spell\lightning_spell9.bmp" />
+    <Image Include="RES\spell\thunder_spell_0.bmp" />
+    <Image Include="RES\spell\thunder_spell_1.bmp" />
+    <Image Include="RES\spell\thunder_spell_2.bmp" />
+    <Image Include="RES\spell\thunder_spell_3.bmp" />
+    <Image Include="RES\spell\thunder_spell_4.bmp" />
+    <Image Include="RES\spell\thunder_spell_5.bmp" />
+    <Image Include="RES\start_menu\about.bmp" />
+    <Image Include="RES\start_menu\about_font.bmp" />
+    <Image Include="RES\start_menu\Anime-girl-blue-skirt-sword-grass_1024x768.bmp" />
+    <Image Include="RES\start_menu\exit.bmp" />
+    <Image Include="RES\start_menu\first.bmp" />
+    <Image Include="RES\start_menu\start.bmp" />
+    <Image Include="RES\start_menu\title.bmp" />
+    <Image Include="RES\start_menu\tutorial.bmp" />
+    <Image Include="RES\start_menu\tutorial_font.bmp" />
+    <Image Include="RES\start_menu\victory.bmp" />
+    <Image Include="RES\ui\Character_Shield.bmp" />
+    <Image Include="RES\npc\npc_down0.bmp" />
+    <Image Include="RES\npc\npc_down1.bmp" />
+    <Image Include="RES\npc\npc_down2.bmp" />
+    <Image Include="RES\npc\npc_down3.bmp" />
+    <Image Include="RES\npc\npc_left0.bmp" />
+    <Image Include="RES\npc\npc_left1.bmp" />
+    <Image Include="RES\npc\npc_left2.bmp" />
+    <Image Include="RES\npc\npc_left3.bmp" />
+    <Image Include="RES\npc\npc_right0.bmp" />
+    <Image Include="RES\npc\npc_right1.bmp" />
+    <Image Include="RES\npc\npc_right2.bmp" />
+    <Image Include="RES\npc\npc_right3.bmp" />
+    <Image Include="RES\npc\npc_up0.bmp" />
+    <Image Include="RES\npc\npc_up1.bmp" />
+    <Image Include="RES\npc\npc_up2.bmp" />
+    <Image Include="RES\npc\npc_up3.bmp" />
+    <Image Include="RES\ui\level_ui.bmp" />
+    <Image Include="RES\ui\money_num0.bmp" />
+    <Image Include="RES\ui\money_num1.bmp" />
+    <Image Include="RES\ui\money_num2.bmp" />
+    <Image Include="RES\ui\money_num3.bmp" />
+    <Image Include="RES\ui\money_num4.bmp" />
+    <Image Include="RES\ui\money_num5.bmp" />
+    <Image Include="RES\ui\money_num6.bmp" />
+    <Image Include="RES\ui\money_num7.bmp" />
+    <Image Include="RES\ui\money_num8.bmp" />
+    <Image Include="RES\ui\money_num9.bmp" />
+    <Image Include="RES\ui\money_ui.bmp" />
+    <Image Include="RES\ui\speech_bubble.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Source\game.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
